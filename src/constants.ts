@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-
+export {INIT_CODE_HASH,FACTORY_ADDRESS} from '@iniswap/core/build'
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
 
@@ -19,9 +19,9 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x3fadeaAAEEcfb9e1ACd5A917Cb8B04396653cb72'
+// export const FACTORY_ADDRESS = '0x02eD0469b9A6A9AbAf31ABA0645E9eda8B51585c'
 
-export const INIT_CODE_HASH = '0x9f48108d5c7d562fb416156337f30705da8c1d5d90f438859710c88a04c0a534'
+// export const INIT_CODE_HASH = '0x9f48108d5c7d562fb416156337f30705da8c1d5d90f438859710c88a04c0a534'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

@@ -1,7 +1,7 @@
 {
   "name": "@iniswap/sdk",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "🛠 An SDK for building applications on top of iniswap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -10,7 +10,7 @@
   ],
   "repository": "https://github.com/Mechsoft-limited/iniswap-sdk.git",
   "keywords": [
-    "inswap",
+    "iniswap",
     "bsc"
   ],
   "module": "dist/sdk.esm.js",
@@ -22,7 +22,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@iniswap/core": "^0.0.1",
+    "@iniswap/core": "0.0.2",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",
